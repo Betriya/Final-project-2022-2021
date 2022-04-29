@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    max-width: 100%;
+}
+
+ :root {
+    --background-color: rgb(114, 124, 114);
+    --text-color: rgb(61, 79, 66);
+    --footer: rgb(178, 197, 178);
+    --log-color: black;
+    --soft-back: rgb(198, 189, 168);
+    --hard-back: rgb(152, 150, 150);
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--background-color);
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 2em;
+}
+
+.logo-name {
+    height: auto;
+    max-width: 100%;
+    margin: 2em;
+    color: var(--text-color);
+    border: solid 1px black;
+    width: 35vh;
+    position: relative;
+    top: 0.5em;
+}
+
+a h1 .logo-name {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin: 2em;
+    width: 100%;
+    max-width: 100%;
+    min-width: 600px;
+    position: relative;
+    letter-spacing: 0.01em;
+    left: 10px;
+}
+
+li {
+    margin: 1.2em;
+    display: inline-block;
+    padding: 0;
+}
+
+li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.title h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-bottom: solid 1px var(--text-color);
+    border-top: solid 1px var(--text-color);
+}
+
+.showcase {
+    border-radius: 5px;
+    height: auto;
+    max-width: 100%;
+}
+
+.showcase .products {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    margin: 3em 2em;
+    text-align: center;
+    grid-gap: 2em;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.products {
+    display: grid;
+    max-width: 100%;
+    background-color: var(--background-color);
+    margin: 3em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: center;
+}
+
+.softwares {
+    margin: 2em 2em;
+    background-color: aliceblue;
+    font-size: 30px;
+    height: 35vh;
+}
+
+.hardwares {
+    margin: 2em 2em;
+    background-color: aliceblue;
+    height: 35vh;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    min-width: cover;
+}
+
+.footer {
+    background-color: var(--background-color);
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    text-align: center;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about {
+    height: auto;
+    max-width: 100%;
+    background-color: var(--footer);
+    margin: 2em;
+    text-align: center;
+}
+
+.info a {
+    max-width: 100%;
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+    margin: 2em;
+}
+
+.soc-med {
+    height: auto;
+    max-width: 100%;
+    background-color: var(--footer);
+    margin: 2em;
+    text-align: center;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 100%;
+    height: auto;
+    background-color: var(--footer);
+    border-radius: 2px;
+    margin: 2em;
+    color: var(--text-color);
+}
+
+.footer-container .footer-center {
+    margin: 2em;
+    text-decoration: none;
+}
+
+span {
+    text-decoration: none;
+}
+
+
+/*Hardwares*/
+
+.header {
+    background-color: var(--hard-back);
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 2em;
+}
+
+.showcase .items {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin: 3em 2em;
+    text-align: center;
+    grid-gap: 2em;
+    height: auto;
+    max-width: 100%;
+}
+
+.items {
+    display: grid;
+    max-width: 100%;
+    background-color: rgb(226, 230, 233);
+    margin: 3em;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.item-list {
+    margin: 2em 2em;
+    background-color: aliceblue;
+    font-size: 30px;
+    height: 35vh;
+}
+
+.main {
+    background-color: var(--hard-back);
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 2em;
+}

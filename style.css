@@ -1,0 +1,347 @@
+                                * {
+                                    padding: 0;
+                                    margin: 0;
+                                    font-family: 'Source Sans Pro', sans-serif;
+                                    font-weight: 800;
+                                    box-sizing: border-box;
+                                    max-width: 100%;
+                                }
+                                
+                                 :root {
+                                    --background-color: rgb(114, 124, 114);
+                                    --text-color: rgb(61, 79, 66);
+                                    --footer: rgb(178, 197, 178);
+                                    --log-color: black;
+                                    --soft-back: rgb(198, 189, 168);
+                                    --hard-back: rgb(152, 150, 150);
+                                }
+                                
+                                ul,
+                                li {
+                                    list-style: none;
+                                }
+                                
+                                a {
+                                    text-decoration: none;
+                                    color: Black;
+                                }
+                                
+                                .header {
+                                    border-radius: 5px;
+                                    background-color: var(--background-color);
+                                    margin: 2rem;
+                                }
+                                
+                                .hamburger {
+                                    display: none;
+                                }
+                                
+                                .menu .top {
+                                    display: none;
+                                }
+                                
+                                .flex-content {
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                
+                                .navigation {
+                                    height: 7rem;
+                                    justify-content: space-between;
+                                }
+                                
+                                .logo {
+                                    padding: 0rem 1.5rem;
+                                    align-items: center;
+                                    position: relative;
+                                }
+                                
+                                .nav-link {
+                                    padding: 0rem 1rem;
+                                }
+                                
+                                .nav-item:not(:last-child) {
+                                    margin-right: 0.5rem;
+                                }
+                                
+                                .nav-item:first-child .nav-link {
+                                    color: rgba(61, 79, 66);
+                                }
+                                
+                                .nav-link:hover {
+                                    color: rgb(61, 89, 66);
+                                }
+                                
+                                .title h2 {
+                                    font-size: 3rem;
+                                    text-align: center;
+                                    margin-bottom: 3rem;
+                                    border-bottom: solid 1px var(--text-color);
+                                    border-top: solid 1px var(--text-color);
+                                }
+                                
+                                .showcase {
+                                    text-transform: uppercase;
+                                    border-radius: 5px;
+                                    height: auto;
+                                    max-width: 100%;
+                                }
+                                
+                                .showcase .products {
+                                    display: grid;
+                                    grid-template-columns: 3fr 3fr;
+                                    margin: 3em 2em;
+                                    text-align: center;
+                                    grid-gap: 2em;
+                                    max-width: 100%;
+                                }
+                                
+                                .products {
+                                    text-transform: uppercase;
+                                    max-width: 100%;
+                                    background-color: var(--background-color);
+                                    margin: 3em;
+                                    border-radius: 5px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: auto;
+                                }
+                                
+                                .softwares {
+                                    text-transform: uppercase;
+                                    margin: 1em 2em;
+                                    background-color: aliceblue;
+                                    font-size: 30px;
+                                    height: auto;
+                                    max-width: 100%;
+                                }
+                                
+                                .hardwares {
+                                    text-transform: uppercase;
+                                    margin: 1em 2em;
+                                    background-color: aliceblue;
+                                    font-size: 30px;
+                                    height: auto;
+                                    max-width: 100%;
+                                }
+                                
+                                img {
+                                    max-width: 100%;
+                                    height: auto;
+                                    background-size: cover;
+                                    overflow: hidden;
+                                    min-width: cover;
+                                }
+                                
+                                .footer {
+                                    text-transform: uppercase;
+                                    background-color: var(--background-color);
+                                    margin: 2em;
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr;
+                                    grid-gap: 2em;
+                                    text-align: center;
+                                    height: auto;
+                                    border-radius: 5px;
+                                }
+                                
+                                .about {
+                                    text-transform: uppercase;
+                                    height: auto;
+                                    max-width: 100%;
+                                    background-color: var(--footer);
+                                    margin: 2em;
+                                    text-align: center;
+                                    border-radius: 10px;
+                                }
+                                
+                                .info a {
+                                    max-width: 100%;
+                                    text-decoration: none;
+                                    color: var(--text-color);
+                                    text-align: center;
+                                    margin: 2em;
+                                    text-transform: uppercase;
+                                }
+                                
+                                .soc-med {
+                                    height: auto;
+                                    max-width: 100%;
+                                    background-color: var(--footer);
+                                    margin: 2em;
+                                    text-align: center;
+                                    border-radius: 10px;
+                                }
+                                
+                                #footer {
+                                    max-width: 100%;
+                                    height: auto;
+                                    background-color: var(--background-color);
+                                    border-radius: 2px;
+                                    margin: 2em;
+                                    color: var(--footer);
+                                    line-height: 3;
+                                }
+                                
+                                .footer-container .footer-center {
+                                    margin: 2em;
+                                    text-decoration: none;
+                                }
+                                
+                                span {
+                                    text-decoration: none;
+                                }
+                                /*Hardwares*/
+                                
+                                .showcase .items {
+                                    display: grid;
+                                    grid-template-columns: 3fr 3fr 3fr 3fr;
+                                    margin: 3em 2em;
+                                    text-align: center;
+                                    grid-gap: 2em;
+                                    height: auto;
+                                    max-width: 100%;
+                                    text-transform: uppercase;
+                                }
+                                
+                                .items {
+                                    display: grid;
+                                    max-width: 100%;
+                                    background-color: rgb(226, 230, 233);
+                                    margin: 3em;
+                                    border-radius: 5px;
+                                    justify-content: center;
+                                }
+                                
+                                .item-list {
+                                    margin: 2em 2em;
+                                    background-color: aliceblue;
+                                    font-size: 30px;
+                                    height: 35vh;
+                                }
+                                /* < Large display*/
+                                
+                                @media only screen and ( max-width: 1280) {
+                                    * {
+                                        padding: 0 3rem;
+                                    }
+                                    .showcase {
+                                        width: 100%;
+                                    }
+                                }
+                                /* < medium display*/
+                                /* < small display*/
+                                
+                                @media only screen and (max-width:768px) {
+                                    .navigation {
+                                        padding: 1rem 0;
+                                    }
+                                    .hamburger {
+                                        display: block;
+                                        font-size: 1.5rem;
+                                        cursor: pointer;
+                                    }
+                                    .menu {
+                                        background-color: var(--footer);
+                                        position: fixed;
+                                        top: 0;
+                                        left: -100%;
+                                        height: 100%;
+                                        width: 80%;
+                                        max-width: 45rem;
+                                        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+                                        z-index: 100;
+                                        transition: all 700ms ease-in-out;
+                                    }
+                                    .menu .top {
+                                        display: block;
+                                        background-color: white;
+                                        width: 100%;
+                                        height: 4rem;
+                                        position: relative;
+                                        color: rgb(61, 79, 66);
+                                    }
+                                    .top span {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        position: absolute;
+                                        top: 50%;
+                                        right: 1rem;
+                                        transform: translate y(-40%);
+                                        font-size: 1.5rem;
+                                    }
+                                    .top span i {
+                                        font-size: 1rem;
+                                    }
+                                    .nav-list {
+                                        flex-direction: column;
+                                        align-items: start;
+                                        padding: 2rem 0;
+                                    }
+                                    .nav-item {
+                                        margin: 0 0 2rem 0;
+                                    }
+                                    .nav-link {
+                                        padding: 0.7rem;
+                                    }
+                                    .show {
+                                        left: 0;
+                                    }
+                                    .logo {
+                                        padding: 0rem;
+                                        border: solid 1px #fff;
+                                        width: auto;
+                                        margin: 2rem;
+                                    }
+                                    .logo h1 {
+                                        font-size: 1.8rem;
+                                        font-weight: 600;
+                                        color: #fff;
+                                    }
+                                    .showcase .products {
+                                        grid-template-columns: 1fr;
+                                        height: auto;
+                                    }
+                                    .showcase .title {
+                                        margin-top: 2rem;
+                                    }
+                                    .softwares,
+                                    .hardwares {
+                                        text-transform: uppercase;
+                                        margin: 1em 2em;
+                                        background-color: aliceblue;
+                                        font-size: 30px;
+                                        height: auto;
+                                        max-width: 100%;
+                                    }
+                                    .img img {
+                                        max-width: 100%;
+                                        height: 30vh;
+                                        background-size: cover;
+                                        overflow: hidden;
+                                        min-width: cover;
+                                    }
+                                    .footer {
+                                        text-transform: uppercase;
+                                        background-color: var(--background-color);
+                                        margin: 3em;
+                                        display: grid;
+                                        grid-template-columns: 1fr;
+                                        text-align: center;
+                                        height: auto;
+                                    }
+                                    .about {
+                                        background-color: #fff;
+                                        height: auto;
+                                        width: auto;
+                                    }
+                                    .soc-med {
+                                        background-color: #fff;
+                                        height: auto;
+                                        width: auto;
+                                        line-height: 2;
+                                    }
+                                }
+                                
+                                @media only screen and (max-width: 767px) {}
